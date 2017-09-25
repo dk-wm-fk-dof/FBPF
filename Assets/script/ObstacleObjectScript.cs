@@ -13,7 +13,7 @@ public class ObstacleObjectScript : MonoBehaviour
 		
 		if(this.transform.position.x<OffScreen)
 		{
-			this.transform.position += new Vector3( (ResetPosition * 1.5f), 0, 0 );
+			this.transform.position += new Vector3( (ResetPosition * 3), 0, 0 );
 		}	
 	}
 }
